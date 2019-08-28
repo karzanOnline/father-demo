@@ -1,0 +1,29 @@
+{
+  "name": "father-demo",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "license": "MIT",
+  "dependencies": {
+    "father": "^2.16.0"
+  },
+  "scripts": {
+    "doc:dev": "father doc dev",
+    "test": "umi-test",
+    "dev": "father build --watch",
+    "build": "father build",
+    "publish": "yarn publish",
+    "doc:build": "father doc build",
+    "doc:deploy": "father doc deploy"
+  },
+  "devDependencies": {
+    "umi-test": "^1.7.1"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
